@@ -16,7 +16,7 @@ Project ini merupakan praktikum Git yang mencakup:
 5. Menggunakan perintah git add . dan melakukan commit pada setiap perubahan yang terjadi, sebagai contoh: git commit -m "feat: add initial html page" untuk menambahkan perubahan dan menyimpannya ke history Git.
 6. Membuat file .gitignore dengan perintah: touch .gitignore, lalu diisi dengan . DS_Store, *. log, node_modules /
 7. Melakukan commit kembali dengan add terlebih dahulu, yaitu git add .gitignore dan git commit -m "chore: add gitignore"
-8. Melakukan dokumentasi pada README.md dengan mmemberi kode: ![Screnshoot hasil git log --oneline --graph](image.png), serta menambah foto di folder yang sama.
+8. Melakukan dokumentasi pada README.md dengan mmemberi kode: ![caption]([file]), serta menambah foto di folder yang sama.
 9. Menambah gambar dengan perintah git: git add [file gambar] README.md.
 10. Melakukan commit dan memberikan teks.
 11. Terakhir adalah melakukan push ke GitHub dengan perintah: git push origin main.
