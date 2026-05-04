@@ -16,7 +16,7 @@ Project ini merupakan praktikum Git yang mencakup:
 5. Menggunakan perintah git add . dan melakukan commit pada setiap perubahan yang terjadi, sebagai contoh: git commit -m "feat: add initial html page" untuk menambahkan perubahan dan menyimpannya ke history Git.
 6. Membuat file .gitignore dengan perintah: touch .gitignore, lalu diisi dengan . DS_Store, *. log, node_modules /
 7. Melakukan commit kembali dengan add terlebih dahulu, yaitu git add .gitignore dan git commit -m "chore: add gitignore"
-8. Melakukan dokumentasi pada README.md dengan mmemberi kode: ![Screnshoot hasil git log --oneline --graph](image.png), serta menambah foto di folder yang sama.
+8. Melakukan dokumentasi pada README.md dengan memberi kode: ![caption gambar]([nama file]), serta menambah foto di folder yang sama.
 9. Menambah gambar dengan perintah git: git add [file gambar] README.md.
 10. Melakukan commit dan memberikan teks.
 11. Terakhir adalah melakukan push ke GitHub dengan perintah: git push origin main.
@@ -55,19 +55,37 @@ baik.
 lalu Git akan membuka editor. Ubah menjadi satu pesan commit yang baik. 
 13. Setelah itu, push
 ke GitHub. Buka GitHub untuk melakukan Pull Request dan Squash and Merge. Tidak lupa memberikan judul dan deskripsi yang sesuai dengan perubahan yang dilakukan
+14. Hasil dari perubahan website adalah sebagai berikut
+![Screnshoot hasil website background purple](1.png)
+![Screnshoot hasil website background pink](2.png)
+![Screnshoot hasil website dengan dark mode](3.png)
 
 # Cara Menjalankan Tugas 4
-1. 
+1. Buat 3 issue pada GitHub sebagai perencanaan perbaikan untuk ke depannya.
+2. Untuk menyelesaikan issue tersebut, buat branch feature/navbar-improvement.
+3. Pastikan telah berada di main dengan perintah: git checkout main, lalu pull dengan perintah: git pull.
+4. Buat branch dengan perintah: git checkout -b feature/navbar-improvement
+5. Edit kode sesuai dengan issue yang dibuat, sebagai contoh pada issue pertama adalah terkait navbar yang masih sederhana sehingga kode pada file ditambah menu dan style.
+6. Setelah selesai, gunakan perintah berikut untuk menambah, commit, dan push perubahan: git add ., git commit -m "feat: improvement navbar", dan git push -u origin feature/navbar-improvement.
+7. Buka GitHub, lalu lakukan Compare dan Pull Request.
+8. Dalam pengisian PR, tambahkan Closes #(sesuaikan dengan nomor issue) di deskripsi untuk menutup issue. 
+9. Selanjutnya lakukan Squash and merge, serta delete branch. Issue yang telah diselesaikan akan tampil
+sebagai issue yang telah ditutup.
+10. Lakukan cara yang sama untuk sisa issue sehingga issue tersebut dapat diselesaikan dengan baik.
+11. Untuk invite collaborator, buka settings di GitHub dan pilih Collaborators. Invite akun dosen dan asprak.
+12. Hasil dari website dengan issue yang telah diselesaikan adalah sebagai berikut.
+![Screnshoot hasil website dengan issue yang telah diselesaikan](4.png)
+
 
 # Screenshot Website
 ![Screnshoot hasil website background purple](1.png)
 ![Screnshoot hasil website background pink](2.png)
 ![Screnshoot hasil website dengan dark mode](3.png)
-
+![Screnshoot hasil website dengan issue yang telah diselesaikan](4.png)
 
 
 # Git Log
-
 ![Screnshoot hasil git log --oneline --graph](image.png)
 
+#  Branch Protection Rule
 ![Screnshoot hasil branching dan pull request](branch.png)
